@@ -1,0 +1,90 @@
+body{
+    background-color:rebeccapurple;
+}
+
+.slider{
+    width: 1000px;
+    height: 400px;
+    background-color: blue;
+    margin-top: 50px;
+    margin-left: 80px;
+    background: url(image/Food/slade1.jpg) no-repeat;
+    border: solid 10px white;
+   animation:slide 5s infinite;
+   background-size: 100%;
+}
+@keyframes slide{
+    25%
+    {
+        background: url(image/Food/slade2.jpg) no-repeat;
+        background-size: 100%;
+    }
+    50%
+    {
+        background: url(image/Food/slade3.jpg) no-repeat;
+        background-size: 100%;
+    }
+    75%
+    {
+        background: url(image/Food/slade4.jpg) no-repeat;
+        background-size: 100%;
+    }
+}
+
+.container{
+    
+    width: 1200px;
+    height: 600px;
+    background-color: blueviolet;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+}
+.container .box{
+    width: 430px;
+    height: 270px;
+    background-color: chocolate;
+    margin-left: 70px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 60px;
+    border: solid white;
+    overflow: hidden;
+}
+.container .box img{
+    width: 450px;
+    height: 250px;
+    margin-left: 10px;
+    border: solid white;
+    border-radius: 10px;
+   
+}
+.container .box:hover img{
+    transform: scale(1.2)
+}
+.container .box img{
+    transition: transform 2s;
+}
+.head{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background-color:greenyellow
+    
+}
+.footer{
+width: 1200px;
+height: 200px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.footer img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    border: solid white;
+}
+

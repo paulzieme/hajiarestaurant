@@ -1,0 +1,16 @@
+  
+body{
+    margin: 0;
+    padding: 0; 
+    
+}
+.box{
+    width: 1200px;
+    height: 800px;
+    background: linear-gradient( to right top, rgb(238, 68, 181), rgb(245, 226, 62));
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.otable{
+padding: 5% 10%;
+}

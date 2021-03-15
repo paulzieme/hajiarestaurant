@@ -1,0 +1,147 @@
+
+*{
+    margin: 0px;
+    
+}
+body{
+    background-color:  rgb(182, 236, 93);
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    margin: 10PX;
+}
+
+
+nav ul li{
+    display: block;
+    float: left;
+    padding: 10px 10px;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    
+
+}
+nav ul li ul li a:hover{
+    background-color: white;
+}
+nav ul li ul li{
+    width: 180px;
+    height: auto;
+    padding-left: 10px;
+}
+nav ul li:hover ul{
+    display: block;
+    
+    
+
+}
+nav ul li:hover{
+    background-color: yellow;
+}
+main{
+    min-height: 100vh;
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.container{
+width: 1000px;
+height: 500px;
+background: linear-gradient(to left bottom, orange,rgb(123, 238, 123));
+opacity: 0.9;
+border: solid 5px white;
+border-radius: 70px 0px 70px 0px;
+display: flex;
+flex-wrap: wrap;
+}
+
+iframe{
+    margin-left: 20%;
+}
+.container .address{
+    color: white;
+    margin-left: 10%;
+    margin-top: 5% ;
+    text-decoration: underline;
+    width: 230px;
+    height: 300px;
+    background-color: black;
+
+}
+.container .address {
+    text-decoration: none;
+}
+.container .address h2 {
+    display: flex;
+    justify-content: center;
+}
+.container .address p{
+font-size: 20px;
+padding: 10px;
+     
+}
+.container .social{
+    width: 350px;
+    height: 300px;
+    background-color: black;
+    margin-left: 20%;
+    margin-top: 5% ;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    
+}
+.container .social a {
+color: white;
+padding-top: 2%;
+padding-left: 2%;
+font-size: 22px;
+text-decoration: none;
+letter-spacing: 2px;
+
+}
+.container .social img{
+    margin-right: 2%;   
+}
+.container .call{
+    height: 100px;
+    width: 800px;
+    background-color: black;
+    color: white;
+    margin-left: 10%;
+}
+.container .call h2 {
+    font-size:large;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 8px;
+    
+}
+.container .cont {
+    font-size:x-large;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+iframe{
+    display:flex;
+    justify-content: center;
+}
